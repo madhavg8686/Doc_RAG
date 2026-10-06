@@ -1,0 +1,15 @@
+[project]
+name = "doc-rag"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "faiss-cpu>=1.15.1",
+    "fastapi>=0.142.2",
+    "inngest>=0.5.19",
+    "llama-index-readers-file>=0.7.0",
+    "openai>=3.24.0",
+    "python-dotenv>=1.2.4",
+    "qdrant-client>=1.19.1",
+    "streamlit>=1.65.0",
+    "uvicorn>=0.54.0",
+]

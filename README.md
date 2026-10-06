@@ -88,13 +88,9 @@ Doc_RAG/
 
 🚀 Installation
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/Doc_RAG.git
-cd Doc_RAG
-
 2. Create a Virtual Environment
 Windows
 python -m venv .venv
-
 
 Activate it:
 
@@ -353,51 +349,32 @@ Other models can also be used depending on your computer's RAM/GPU.
 
 Possible improvements include:
 
-📚 Multiple PDF support
+* Multiple PDF support
 
-📤 Upload documents dynamically
+* Upload documents dynamically
 
-🗂️ Document metadata filtering
+* Document metadata filtering
 
-✂️ Improved chunking
+* Improved chunking
 
-🎯 Reranking
+* Reranking
 
-💬 Conversation history
+* Conversation history
 
-📖 Better source citations
+* Better source citations
 
-🧠 Local embedding models
+* Local embedding models
 
-🗄️ Persistent vector databases
+* Persistent vector databases
 
-⚙️ Configurable Ollama models
+* Configurable Ollama models
 
-📊 RAG evaluation
+* RAG evaluation
 
-🚀 Deployment to a server
+* Deployment to a server
 
-🎯 Purpose
+* Purpose
 
-This project is designed as a learning project for understanding:
-
-Retrieval-Augmented Generation
-
-Vector embeddings
-
-Semantic search
-
-FAISS
-
-PDF processing
-
-Document chunking
-
-Local LLMs
-
-Ollama
-
-Question answering over documents
 
 The current implementation uses FAISS for retrieval and Ollama for local answer generation.
 

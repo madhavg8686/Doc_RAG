@@ -152,23 +152,23 @@ Never commit .env to GitHub.
 
 Recommended .gitignore:
 
-# Python
+Python
 .venv/
 __pycache__/
 *.pyc
 
-# Environment variables
+Environment variables
 .env
 .env.*
 
-# Generated vector database
+Generated vector database
 *.index
 *.pkl
 
-# Documents
+Documents
 *.pdf
 
-# IDE
+IDE
 .idea/
 .vscode/
 
